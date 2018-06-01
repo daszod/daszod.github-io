@@ -6,7 +6,7 @@ Ich habe meine Webseite mit react-create-app realisiert.
 Auf dem Webserver läuft Linus mit Plesk und besitzt ein Node.js Modul.
 So bot es sich an ebenfalls einen kurzen ein Blick in expressjs zu werfen und meine "App" / portfolio darüber laufen zu lassen.
 
-## "dependencies": {
+"dependencies": {
 - "react": "^16.3.1",
 - "react-dom": "^16.3.1",
 - "react-image-gallery": "^0.8.7",
