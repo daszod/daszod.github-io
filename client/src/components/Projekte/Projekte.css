@@ -1,0 +1,30 @@
+#headerbackground{
+  background-image: url("./Projekte-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+
+.imgSliderfit div img{
+  width: auto;  /* set to anything and aspect ratio is maintained - also corrects glitch in Internet Explorer */
+  height: auto;  /* set to anything and aspect ratio is maintained */
+  max-height: 500px;
+  border: 0;  /* for older IE browsers that draw borders around images */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillicons{
+  width:100px;
+  height:100px;
+  padding: 0 1rem;
+}
+
+.circle
+{
+  background-color: #f5f3ed;
+	box-shadow: -2px 4px 8px 0 rgba( 0, 0, 0, .2 );
+	border-radius:100px;
+}

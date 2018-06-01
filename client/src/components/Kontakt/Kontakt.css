@@ -1,0 +1,19 @@
+#leftside{
+  background-color: #324d5c;
+}
+
+#leftside div{
+  background-color: #3a5462;
+}
+
+#rightside{
+  background-color: #f25d59;
+}
+
+#rightside div{
+  background-color: #f5817d;
+}
+
+#rightside div button{
+  background-color: #f25d59;
+}

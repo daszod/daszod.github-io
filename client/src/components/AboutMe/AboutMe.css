@@ -1,0 +1,6 @@
+#AboutMeHeader{
+  background-image: url("./AboutMe-Banner.png");
+  background-repeat: repeat-x;
+  background-size: auto 10rem;
+  background-position: left;
+}

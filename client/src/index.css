@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Titillium Web',sans-serif; */
+  font-family: 'helvetica',sans-serif;
+  background-color: #f5f3ed;
+}
+
+#bgoverall{
+  background-color: #f5f3ed;
+}

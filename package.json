@@ -1,0 +1,22 @@
+{
+  "name": "Portfolio",
+  "version": "0.1.0",
+  "description": "Mein erstes Portoflio mit npm und create react app",
+  "author": {
+    "name": "Waldemar Wender",
+    "email": "info@wwender.de",
+    "url": "https://wwender.de"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+      "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  },
+    "homepage": "https://wwender.de/",
+}
