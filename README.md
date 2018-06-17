@@ -1,10 +1,14 @@
 Ich habe meine Webseite mit react-create-app realisiert.
 
-1. Um etwas damit zu üben.
-2. Fand ich die Idee ganz schön eine Vorlage für meine Projekte zu erstellen. Somit konnte ich diese simpel ausfüllen und damit einen neuen Projektblock erstellen.
+1. Um damit zu üben.
+2. Mir gefiel die Idee eine Vorlage für meine Projekte zu erstellen und dort nur noch Überschrift, Bild und eine Beschreibung einzufügen. 
 
 Auf dem Webserver läuft Linus mit Plesk und besitzt ein Node.js Modul.
-So bot es sich an ebenfalls einen kurzen ein Blick in expressjs zu werfen und meine "App" / portfolio darüber laufen zu lassen.
+So konnte ich ebenfalls einen kurzen ein Blick auf expressjs werfen und meine "App" / Portfolio darüber laufen zu lassen.
+
+Nächste Schritte werden:
+1. Eine Datenbank für die Projekte zu erstellen, woraus sich ein Projekt Block selber baut.
+2. Ein Admin Login um neue Projekte und Bilder einzufügen.
 
 "dependencies": {
 - "react": "^16.3.1",
