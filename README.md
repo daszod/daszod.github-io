@@ -8,7 +8,7 @@ So konnte ich ebenfalls einen kurzen ein Blick auf expressjs werfen und meine "A
 
 Nächste Schritte werden:
 1. Eine Datenbank für die Projekte zu erstellen, woraus sich ein Projekt Block selber baut.
-2. Ein Admin Login um neue Projekte und Bilder einzufügen.
+2. Ein Admin Login um neue Projekte und Bilder einzufügen, löschen und ändern.
 
 "dependencies": {
 - "react": "^16.3.1",
