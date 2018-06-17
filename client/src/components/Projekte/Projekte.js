@@ -1,14 +1,13 @@
 import React from 'react';
 import "./Projekte.css";
-// import Projektccc from "./CCC/projektccc";
 import Projektsheet from './Projektsheet';
 
 const Projekte = () => {
 
   return(
-    <main className="pt5" id="projekte">
+    <main className="pt5 w-100 " id="projekte">
       <header className="w-100 shadow-4 " id="headerbackground">
-        <article className="w-60-l w-100 ml6-l ml4">
+        <article className="w-60-l  ml6-l ml4">
           <h2 className="pl5 pt3-l f-subheadline-l f1 fw2 near-white pl">Projekte</h2>
         </article>
       </header>
@@ -28,6 +27,7 @@ const Projekte = () => {
 
       </div>
 
+      {/* continental Clothing Company */}
       <Projektsheet
         ueberschrift="Continental Clothing Company GmbH"
         beschreibung="Für das weltweit agierende Unternehmen Continental Clothing habe ich den neuen Webauftritt für die deutsche Seite geschaffen.
@@ -61,6 +61,16 @@ const Projekte = () => {
                 originalClass: "imgSliderfit"
           },
           {
+                original: require('./CCC/Screenshots/Infobereich-neu.jpg'),
+                description: "Screenshot: Startseite",
+                originalClass: "imgSliderfit"
+          },
+          {
+                original: require('./CCC/Screenshots/Sonderanfertigung-1.jpg'),
+                description: "Screenshot: Sonderanfertigung",
+                originalClass: "imgSliderfit"
+          },
+          {
                 original: require('./CCC/Screenshots/About-CCC-1.jpg'),
                 description: "Screenshot: About Continental Clothing Company",
                 originalClass: "imgSliderfit"
@@ -76,19 +86,14 @@ const Projekte = () => {
                 originalClass: "imgSliderfit"
           },
           {
-                original: require('./CCC/Screenshots/Salvage-SA41P.jpg'),
-                description: "Screenshot:",
-                originalClass: "imgSliderfit"
-          },
-          {
                 original: require('./CCC/half_half.jpg'),
                 description: "Salvage: 60% Recycled Org.Cott/40% Recycled Poly",
                 originalClass: "imgSliderfit"
           },
           {
-                  original: require('./CCC/EP18.jpg'),
-                  description: "Flyer: EarthPositive EP18",
-                  originalClass: "imgSliderfit"
+                original: require('./CCC/Screenshots/Salvage-SA41P.jpg'),
+                description: "Flyer: Salvage SA41P",
+                originalClass: "imgSliderfit"
           },
           {
                 original: require('./CCC/Flyer-EP65-BU.jpg'),
@@ -101,38 +106,44 @@ const Projekte = () => {
                   originalClass: "imgSliderfit"
           },
           {
-                original: require('./CCC/Weihnachten-Silvester.jpg'),
-                description: "Flyer: Betriebsferien",
-                originalClass: "imgSliderfit"
-          },
-          {
-                original: require('./CCC/2018April-Flyer-EP100.jpg'),
-                description: "Flyer: Betriebsferien",
-                originalClass: "imgSliderfit"
-          },
-          {
-                original: require('./CCC/ep17x1000.jpg'),
-                description: "Flyer: Betriebsferien",
-                originalClass: "imgSliderfit"
-          },
-          {
                 original: require('./CCC/Flyer-2018Mai-N09N18x1000.jpg'),
-                description: "Flyer: Betriebsferien",
+                description: "Flyer: Continental N09 & N18",
                 originalClass: "imgSliderfit"
           },
           {
                 original: require('./CCC/EP16x1000.jpg'),
+                description: "Flyer: EarthPositive EP16",
+                originalClass: "imgSliderfit"
+          },
+          {
+                original: require('./CCC/2018April-Flyer-EP100.jpg'),
+                description: "Flyer: EarthPositive EP100",
+                originalClass: "imgSliderfit"
+          },
+          {
+                  original: require('./CCC/Flyer-2018-N50Px1000.jpg'),
+                  description: "Flyer: Continental N50P",
+                  originalClass: "imgSliderfit"
+          },
+          {
+                original: require('./CCC/EP17-Flyerx1000.jpg'),
                 description: "Flyer: Betriebsferien",
                 originalClass: "imgSliderfit"
           },
+          {
+                original: require('./CCC/Flyer-Sonderanfertigung.jpg'),
+                description: "Flyer: Sonderanfertigung",
+                originalClass: "imgSliderfit"
+          }
+
         ]}
       />
 
-
+      {/* Beatrix Bernd Heilpraxis */}
       <Projektsheet
         ueberschrift="Beatrix Bernd Heilpraxis"
         beschreibung="Für die Naturheilpraxis Beatrix Berndt entwarf ich während des Studiums ein neues Logo und Kommunikationsmaterial wie Flyer und Visitenkarten."
-        // webseite=""
+
         images = {[
           {
                 original: require('./Heilpraxis/Naturheilpraxis-Logo.png'),
@@ -157,10 +168,11 @@ const Projekte = () => {
           ]}
       />
 
+      {/* Kriegertraining*/}
       <Projektsheet
         ueberschrift="Kriegertraining"
         beschreibung="Für den ehemaligen Weltmeister im Kumite Karate, Maximilian Mathes, entwickelte ich ein Logo für den Webauftritt."
-        // webseite=""
+
         images = {[
           {
                 original: require('./Karatemax/KriegerTrainingx1500.png'),

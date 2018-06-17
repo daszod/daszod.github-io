@@ -6,16 +6,16 @@ import Mailto from 'react-mailto.js';
 const Kontakt = () => {
   return(
     <section className="w-100 flex flex-column flex-row-l mt6 tc" id="kontaktId">
-      <div className="w-50-l w-100 vh-75" id="leftside">
-        <div className=" shadow-5 white ph5 ma5 br4 h-75 pt4" >
+      <div className="w-50-l w-100 vh-50-l" id="leftside">
+        <div className="shadow-5 white ph5-ns ma5-ns ma3 br4 h-75 pt4-ns pa2" >
          <h2 className="f2-ns f3">Bereit dein nächstes Projekt mit mir zu starten?</h2>
           <p className="f3-ns f4">
             Zusammen entwerfen wir eine individuelle Lösung, die genau auf dein Projekt zugeschnitten ist.
           </p>
         </div>
       </div>
-      <div className="w-50-l w-100 vh-75 " id="rightside">
-        <div className=" shadow-5 white ph5 ma5 br4 h-75 pt4" >
+      <div className="w-50-l w-100 vh-50-l " id="rightside">
+        <div className="shadow-5 white ph5-ns ma5-ns ma3 br4 h-75 pt4-ns pa2" >
          <h2 className="f2-ns f3 ">Interesse geweckt?</h2>
          <p className="f3-ns f4 black">Mail an: <br />info@wwender.de</p>
          <p ><Mailto className="f3-ns f4 link black hover dim"

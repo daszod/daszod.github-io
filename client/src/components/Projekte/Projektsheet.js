@@ -11,7 +11,7 @@ const Projektsheet = ({ueberschrift, beschreibung, webseite, images}) =>{
   return (
     <article className="bt bb b--black-10 shadow-4 pv2 mb5">
           <div className="flex flex-column flex-row-ns flex-column-m ph3-ns">
-            <div className="pr3-l mb4 mb0-l w-100 w-50-l ml5-l">
+            <div className="pr3-l mb4 mb0-l w-100 w-50-l ml5-l ">
               <ImageGallery
                 items={images}
                 showIndex= {true}
@@ -31,7 +31,7 @@ const Projektsheet = ({ueberschrift, beschreibung, webseite, images}) =>{
               <p className="f5 lh-copy">
                 {beschreibung}
               </p>
-              <button type="button" className="f6 br3 bn dim grow pv2 ph3  link pointer bg-light-silver"><a className="link white" href={webseite} target="_blank"  rel="noopener noreferrer" > Zur Webseite</a></button>
+              <button type="button" className="f6 br3 bn dim grow pv2 ph3  link pointer bg-black-70"><a className="link white" href={webseite} target="_blank"  rel="noopener noreferrer" > Zur Webseite</a></button>
             </div>
           </div>
       </article>

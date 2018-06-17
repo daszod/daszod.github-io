@@ -8,7 +8,7 @@ const Header = () => {
   return(
     <div className="vh-100 dt w-100 tc" id="home">
       <div className="dtc v-mid">
-        <section className="w-100 pv3 mt5 bg-near-white shadow-1">
+        <section className="w-100 pv3 mt5 bg-white-30 shadow-1">
           <h1 className="f1-ns f2-m fw1">Waldemar Wender - Web Development</h1>
         </section>
         <div className="mw9 center ph3-ns">

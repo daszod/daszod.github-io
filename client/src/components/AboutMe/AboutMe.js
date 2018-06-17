@@ -5,7 +5,7 @@ import Profilbild from "../Header/Profilbild.png";
 
 const AboutMe = () => {
   return(
-    <section>
+    <section >
       <header className="w-100 " id="AboutMeHeader">
         <div className="flex items-center">
           <div className="w-50 ml6-l ml5 pa3-ns">
